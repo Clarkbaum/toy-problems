@@ -6,6 +6,7 @@ A leaf node is any node in the tree that has no children. countLeaves should
 traverse the tree, and return the number of leaf nodes the tree contains.
 
 Example usage:
+```
 
 var root = new Tree();
 
@@ -24,6 +25,7 @@ root.children[0].addChild(new Tree());
 root.children[0].children[0].addChild(new Tree());
 
 root.countLeaves(); // 3
+```
 
 # status
 

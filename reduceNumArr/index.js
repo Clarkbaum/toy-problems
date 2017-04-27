@@ -7,7 +7,7 @@ function sum (numbers) {
 }
 
 
-//reduce solution. i know it says recursion but i dont need recursion practice. i need reduce solution
+//reduce solution.
 function sum(numbers){
   return numbers.reduce(function(accumulator, curr){
     return accumulator + curr

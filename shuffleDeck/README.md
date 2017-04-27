@@ -18,4 +18,4 @@ A human shuffler is much more biased; it takes around seven normal “riffle” 
 
 # status
 
-partially finished
+finished

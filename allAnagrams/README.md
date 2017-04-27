@@ -6,6 +6,11 @@ Parameters:
 
 string (required) - a string of characters.
 
+EXAMEPLE
+
+input: "abc" 
+output: [ "abc", "acb", "bac", "bca", "cab", "cba" ]
+
 #status
 
 not started

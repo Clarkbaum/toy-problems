@@ -11,6 +11,6 @@ EXAMEPLE
 input: "abc" 
 output: [ "abc", "acb", "bac", "bca", "cab", "cba" ]
 
-#status
+# status
 
 not started

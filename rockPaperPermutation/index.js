@@ -1,0 +1,3 @@
+function rockPaperPermutation (roundCount) {
+  
+}

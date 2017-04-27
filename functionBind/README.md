@@ -20,6 +20,6 @@ boundShout = bind(alice.shout, { name: 'bob' })
 ```
 Then calling boundShout() will alert 'here comes bob'
 
-#status
+# status
 
 finished

@@ -10,6 +10,6 @@ Implement a function that takes an array and sorts it using this technique.
 
 NOTE: DO NOT use JavaScript’s built-in sorting function (Array.prototype.sort).
 
-#status
+# status
 
 finished

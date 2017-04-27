@@ -38,6 +38,6 @@ Illustration of a recursive approach:
   3.Both halves are merged:
    [4, 7, 4], [3, 9, 1, 2] -> [1, 2, 3, 4, 4, 7, 9]
 ```
-#status
+# status
 
 finished

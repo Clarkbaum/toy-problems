@@ -12,6 +12,6 @@ In contrast, postfix notation is much easier to parse, albeit it looks weird at 
 2 5 8 * +
 This expression should be read from left to right, one number / operator at a time. In doing so, you must keep a stack of numbers that wait to be operated on.
 
-#status
+# status
 
 finished

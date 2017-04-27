@@ -12,6 +12,6 @@ input:
 .0....
 ..000.
 output: 3
-#status
+# status
 
 finished

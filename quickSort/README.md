@@ -20,6 +20,6 @@ Join the first sorted partition, the pivot, and the second sorted partition.
 
 The best pivot creates partitions of equal length (or lengths differing by 1). The worst pivot creates an empty partition (for example, if the pivot is the first or last element of a sorted array).
 
-#status
+# status
 
 finished

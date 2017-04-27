@@ -10,6 +10,6 @@ output: "aibohphobia"
 string:
 "My dad is a racecar athlete" 
 output: "a racecar a"
-#status
+# status
 
 finished

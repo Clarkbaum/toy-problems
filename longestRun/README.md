@@ -21,6 +21,6 @@ output: [ 0, 0 ]
 string:
 "abccccccc" 
 output: [ 2, 8 ]
-#status
+# status
 
 finished

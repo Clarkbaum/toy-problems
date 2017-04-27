@@ -7,6 +7,6 @@ Examples
 input:
 [ "gray", "grays", "ray", "rays", "strays" ]  
 output: "grays"
-#status
+# status
 
 not started

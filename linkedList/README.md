@@ -1,6 +1,6 @@
 # Goal
 
 Implement a linked-list
-#status
+# status
 
 finished

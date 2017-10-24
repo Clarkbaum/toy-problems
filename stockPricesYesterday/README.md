@@ -19,4 +19,4 @@ no shorting - you must buy before you sell.  you may not buy and sell in the sam
 
 # status
 
-in progress
+Finished

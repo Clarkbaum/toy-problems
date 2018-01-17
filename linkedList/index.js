@@ -45,3 +45,49 @@ var Node = function(value) {
 
   return node;
 };
+
+///////////////////////////////
+//practice
+
+function LinkedList() {
+  this.head = null;
+}
+
+LinkedList.prototype.push = function(value) {
+  var node = {
+    value: value,
+    next: null
+  };
+  
+  if(this.head === null) {
+    this.head = node;
+  } else {
+    var current = this.head; 
+    while(current.next){
+      current = current.next
+    }
+    current.next = node
+  }
+
+}
+
+LinkedList.prototype.pop = function() {
+  var current = this.head;
+  while(current.next.next) {
+    current = current.next;
+  }
+  var popped = current.next.value;
+  current.next = null;
+  
+  return popped;
+  
+}
+
+
+var linkedList = new LinkedList();
+linkedList.push(1);
+linkedList.push(2);
+console.log(linkedList.pop())
+console.log(linkedList.head)
+
+

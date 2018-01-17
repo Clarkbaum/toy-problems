@@ -83,11 +83,18 @@ LinkedList.prototype.pop = function() {
   
 }
 
+LinkedList.prototype.removeHead = function() {
+  this.head = this.head.next;
+}
+
 
 var linkedList = new LinkedList();
 linkedList.push(1);
 linkedList.push(2);
-console.log(linkedList.pop())
+linkedList.removeHead();
+linkedList.push(3);
+linkedList.push(4);
+linkedList.removeHead();
 console.log(linkedList.head)
 
 

@@ -19,4 +19,4 @@ function binarySearch(origArray, target) {
 
 }
 
-console.log(binarySearch([1,3,5,6,7,9,12,14,25,26], 25));
+console.log(binarySearch([1,3,5,6,7,9,12,14,25,26], 14));

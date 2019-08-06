@@ -2,8 +2,7 @@
 
 class LinkedList {
     constructor(val) {
-        //TODO fix head it points to the 2nd atm
-        this.head = null;
+        this.head = this;
         this.next = null;
         this.data = val;
     }
@@ -11,16 +10,11 @@ class LinkedList {
     //add value to end of list
     add(val) {
         const newNode = new LinkedList(val);
-        if ( this.head === null){
-            this.head = newNode;
-            this.next = newNode;
-        } else {
-            let current = this;
-            while(current.next !== null) {
-                current = current.next;
-            }
-            current.next = newNode;
+        let current = this;
+        while(current.next !== null) {
+            current = current.next;
         }
+        current.next = newNode;
     }
 
     //removes last val and returns it

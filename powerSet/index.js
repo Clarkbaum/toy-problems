@@ -27,4 +27,4 @@ function powerSet (string) {
     return output.sort();
   }
   return search("", string, ['']);
-} 
+}

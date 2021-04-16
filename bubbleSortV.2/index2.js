@@ -1,4 +1,4 @@
-//2021 attempt
+// 2021 attempt
 let myArr = [1, 34, 3, 4, 90, 77, 7, 8, 13, 55, 45, 1, 120, 8, 4, 3];
 
 let bubbleSort = (arr) => {

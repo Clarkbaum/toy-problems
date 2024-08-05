@@ -53,10 +53,13 @@ class myLinkedList2 {
             this.head = newNode;
         } else {
             let current = this.head;
+            let prev = new myNode2('null');
             while (current.getNext() != null) {
+                prev = current;
                 current = current.getNext()
             }
             let newNode = new myNode2(val)
+            current.setPrev(prev)
             current.setNext(newNode);
         }
     }
@@ -234,7 +237,7 @@ if (linkedList.getHead() != null) {
 // console.log(linkedList.contains("test4"))
 // console.log(linkedList.contains("test3"))
 
-// console.log(linkedList.get("test2"))
+console.log(linkedList.get("test2"))
 
 linkedList.insert("inserted", "test1")
 
